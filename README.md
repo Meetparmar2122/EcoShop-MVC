@@ -1,21 +1,17 @@
-# EcoShop - Sustainable Online Store (Updated with MongoDB)
+# EcoShop MVC
 
-This version of EcoShop includes MongoDB integration via Mongoose, REST routes, and a seed script.
+EcoShop is a green product e-commerce web app built using the MVC (Model-View-Controller) architecture.  
+- Model: Handles MongoDB database operations using Mongoose.  
+- View: HTML pages for home, products, and contact.  
+- Controller: Handles API logic and routes between the view and the model.  
 
-## Setup
+# How to Run
+1. Clone the repo or download the ZIP.
+2. Run `npm install`.
+3. Configure `.env` with your MongoDB connection string.
+4. Run `node server.js` and open `http://localhost:3000`.
 
-1. Copy `.env.example` to `.env` and fill `MONGO_URI`.
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Seed the database with sample products:
-   ```bash
-   npm run seed
-   ```
-4. Start the server:
-   ```bash
-   npm start
-   ```
-5. Open the demo frontend at `http://localhost:3000`
-
+# Features
+- Browse eco-friendly products.
+- Submit contact form inquiries.
+- Fully responsive UI.
