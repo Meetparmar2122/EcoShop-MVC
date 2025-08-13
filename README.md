@@ -1,30 +1,3 @@
-EcoShop-MVC/
-│
-├── public/               # Static frontend files
-│   ├── index.html
-│   ├── products.html
-│   ├── contact.html
-│   ├── css/
-│   └── js/
-│
-├── server/
-│   ├── models/           # Mongoose schemas
-│   │   ├── productModel.js
-│   │   └── messageModel.js
-│   │
-│   ├── routes/           # Express routes
-│   │   ├── productRoutes.js
-│   │   └── messageRoutes.js
-│   │
-│   ├── app.js            # Main Express app setup
-│   └── seed.js           # Script to seed DB with products
-│
-├── .env.example          # Environment variable template
-├── .gitignore
-├── package.json
-├── package-lock.json
-└── README.md
-
 
 # EcoShop MVC
 
